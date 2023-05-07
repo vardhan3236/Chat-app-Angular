@@ -1,0 +1,17 @@
+<div class="chatPage">
+    <div class="chatContainer">
+        <div class="header">
+            <h2> Let's Chat!</h2>
+            <a href="/"> <img src="assets\close.png" alt="Close" /></a>
+        </div>
+        
+        <div #chatboxElement class = 'chatBox' infiniteScroll>
+            <app-message [user] = 'displayMessages' [messageText] = 'messageText' [class] = 'class'></app-message>
+        </div>
+          
+        <div class="inputBox">
+            <input type="text" id="chatInput" (keyup.enter) = 'message()'/>
+            <button class="sendBtn" (click) = 'message()'><img src="assets\enter.png" alt="Send" /></button>
+        </div>
+    </div>
+</div>

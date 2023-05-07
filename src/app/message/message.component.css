@@ -1,0 +1,70 @@
+.messageBox {
+    padding: 1vmax;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .right {
+    align-self: flex-end;
+    display: inline-block;
+    background-color: rgb(196, 255, 184);
+    color: black;
+    text-align: right;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 6px;
+  }
+  
+  
+  .left {
+    align-self: flex-start;
+    text-align: left;
+    background-color: lightgoldenrodyellow;
+    margin-top: 5px;
+    border-radius: 6px;
+  }
+
+  .middle {
+    align-self: center;
+    justify-content: center;
+    text-align: left;
+    background-color: lightblue;
+    margin-top: 5px;
+    font-style: italic;
+    border-radius: 6px;
+  }
+
+  @media (max-aspect-ratio: 7/10) {
+    
+    .right {
+      padding: 5px;
+      margin-top: 5px;
+      border-radius: 6px;
+      height: auto;
+      font-size: 30px;
+      word-wrap: break-word; 
+      margin-top: 5px;
+    }
+        
+    .left {
+      margin-top: 5px;
+      border-radius: 6px;
+      height: auto;
+      font-size: 30px;
+      word-wrap: break-word; 
+      margin-top: 5px;
+    }
+
+    .middle { 
+      height: 40px;
+      font-size: 20px;
+      word-wrap: break-word; 
+      margin-top: 5px;
+    }
+  
+  }
+  

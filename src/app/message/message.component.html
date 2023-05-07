@@ -1,0 +1,10 @@
+<div class='messageBox'>
+<ng-container *ngFor = 'let users of user'>
+    <div [ngClass] = "users.class == 'left'? 'left': 'right'" *ngIf = 'users.messageUser && users.class != "middle" && users.messageText'>
+       {{users.messageUser}} : {{users.messageText}}
+    </div>
+    <div class = 'middle' *ngIf = 'users.class == "middle"'>
+        {{users.messageText}}
+    </div>
+</ng-container>
+</div>

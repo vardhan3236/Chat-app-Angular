@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "dev": "ng serve --open"
   },
   "private": true,
   "dependencies": {
@@ -18,7 +19,10 @@
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
+    "ngx-infinite-scroll": "^15.0.0",
+    "ngx-scrolltop": "^5.1.0",
     "rxjs": "~7.5.0",
+    "socket.io-client": "^4.6.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
