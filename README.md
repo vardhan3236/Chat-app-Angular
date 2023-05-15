@@ -1,27 +1,22 @@
-# Chat
+# Chat-App-Server
+This repository contains the Node JS server for the Chat Application.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+# Front UI
 
-## Development server
+![image](https://github.com/vardhan3236/Chat-App-Server/assets/126255853/a5ca5b37-bd69-4ac1-9c1e-c95c98030cce)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# After entering into the App
 
-## Code scaffolding
+![image](https://github.com/vardhan3236/Chat-App-Server/assets/126255853/2ba49a5f-38e9-4a7f-becc-e0ab9eba4eb4)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# And the chatting begins
 
-## Build
+![image](https://github.com/vardhan3236/Chat-App-Server/assets/126255853/f5f545c5-f8d1-432b-b9ae-25a74fc0c876)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Tablet view
 
-## Running unit tests
+![image](https://github.com/vardhan3236/Chat-App-Server/assets/126255853/33d383a4-5584-4d59-bcc3-7e7f2414f984)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Chatting in Tablet
+![image](https://github.com/vardhan3236/Chat-App-Server/assets/126255853/f4f167b2-f8b6-4664-a028-93fee2490faa)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
